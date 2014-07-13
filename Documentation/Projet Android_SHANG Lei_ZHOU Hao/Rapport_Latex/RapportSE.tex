@@ -1,0 +1,57 @@
+
+\documentclass[twoside]{EPURapport}
+\input{include.tex}
+
+\nolistoftables
+\thedocument{Rapport de projet de SE}{Développement d'une application Android pour contrôler un robot avec le microcontrôleur AndroPOD}{Microcontroleur AndroPOD}
+
+\grade{Département Informatique\\ 3\ieme{} année\\ 2011 - 2012}
+
+\authors{%
+	\category{Étudiants}{%
+		\name{Hao ZHOU} \mail{hao.zhou-2@etu.univ-tours.fr}
+		\name{Lei SHANG} \mail{lei.shang@etu.univ-tours.fr}
+	}
+	\details{DI3 2011 - 2012}
+}
+
+\supervisors{%
+	\category{Encadrants}{%
+		\name{Pascal MAKRIS} \mail{pascal.makris@univ-tours.fr}
+	}
+	\details{Université François-Rabelais, Tours}
+}
+
+\abstracts{AndroPOD est une carte produite par la société Microchip. Elle sert d'un pont entre les appareils Android et les équipements qui ont une interface série. Elle peut se connecter en même temps, Android, équipement série et l'ordinateur de débogage. En conséquence, notre application installée dans le mobile Android peut communiquer avec une équipement série (un robot dans notre cas), et on peut en même temps la déboguer avec l'ordinateur connecté. Ce rapport détaille les trois parties principales de notre projet (système Android, AndroPOD et le robot Lynxmotion) et le processus de la réalisation.}
+{AndroPOD, Android, robot}
+{AndroPOD is a serial port developped by Microchip for all the Android-based mobile phones. It's just like a bridge between Android and the other equipments who has a serial port. It can be connected with a mobile Android, a serial equipment (a robot in our case) and a computer for debugging. With that, we can use our application which is intalled in the mobile to communicate with the robot, and at the same time, we can aussi debug the application on the connected computer. This report describe the three important parts of the project (système Android, AndroPOD et le robot Lynxmotion) and the process of our implementation.}
+{AndroPOD, Android, robot}
+
+
+\begin{document}
+
+\chapter{Introduction}
+\input{Ch_intro.tex}
+
+\chapter{Système Android}
+\input{Ch1.tex}
+
+\chapter{Carte AndroPOD}
+\input{Ch2.tex}
+
+\chapter{Robot Lynxmotion}
+\input{Ch3.tex}
+
+\chapter{Mise en oeuvre}
+\input{Ch4.tex}
+
+\chapter{Difficultés rencontrées}
+\input{Ch5.tex}
+
+\chapter{Conclusion}
+\input{Ch_conclu.tex}
+
+\annexes
+
+\end{document}
+
